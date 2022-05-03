@@ -193,8 +193,8 @@ public class Test03 {
 
 - 산술 연산자
 - ![image-20220425161925463](java_1.assets/image-20220425161925463.png)
-- 증감연산자
-- ![image-20220425162556276](java_1.assets/image-20220425162556276.png)
+- **증감연산자**
+- <img src="java_1.assets/image-20220425162556276.png" alt="image-20220425162556276"  />
 - 비교 연산자
 - ![image-20220425162747087](java_1.assets/image-20220425162747087.png)
 - 조건 연산자: 결과값으로 참(true), 거짓(false)이 반환
