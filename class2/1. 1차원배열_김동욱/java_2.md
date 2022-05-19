@@ -123,6 +123,7 @@ public class test04 {
 }
 ```
 
+- https://www.acmicpc.net/problem/2752
 - ![image-20220430154154616](java_2.assets/image-20220430154154616.png)
 - 스트링 배열타입(String[]) - 스트링이 여러개 담긴 위치를 담은 배열의 위치를 참조할 수 있는
   공간을 만듬
@@ -133,7 +134,6 @@ public class test04 {
 - int[] arr = new int[10];  / **int[10]** -> 정수 10개가 모여 있는 공간
   **int[]** -> 정수가 10개 모여 있는 **공간의 위치**를 저장할 수 있는 공간
   `int[][]` -> int[]가 또 여러개 있는거
-
 - ![image-20220430155228780](java_2.assets/image-20220430155228780.png)
 - ![image-20220430155242640](java_2.assets/image-20220430155242640.png)
 - `prime = new int[3][];` --> 참조까지만 하고 있고, 2차원 뎁스에 있는녀석들은
@@ -166,7 +166,7 @@ public class test04 {
 
 #### 1-4. 배열의 메모리 생성 과정
 
-- ![image-20220430160225020](java_2.assets/image-20220430160225020.png)
+- <img src="java_2.assets/image-20220430160225020.png" alt="image-20220430160225020" style="zoom:150%;" />
 
 #### 1-5. for-each
 
