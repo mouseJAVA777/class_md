@@ -38,7 +38,7 @@ public class StudentTest {
     
 	public static void main(String[] args) {
         // Scanner 클래스 : 읽은 바이트를 문자, 정수, 실수, 불린, 문자열 등 다양한 타입으로 변환하여 리턴하는 클래스
-        
+      
 		Scanner sc = new Scanner(System.in);
 		Student[] students = new Student[100];
 		int size = 0;
@@ -102,6 +102,16 @@ public class StudentTest {
 			}
 		} while(sel != 0);
 		
+	}
+    static int getStudent(String name) {
+		int idx = -1;
+		for(int i = 0; i < size; i++) {
+			if ( name.equals(students[i].name)) {
+				idx = i;
+				break;
+			}	
+		}
+		return idx;
 	}
 }
 ```
