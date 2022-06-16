@@ -29,4 +29,12 @@
 ![image-20220615131731773](web_architecture.assets/image-20220615131731773.png)
 
 - 파라미터를 어떻게 처리할것인가..
-- 
+
+#### 1-5. JSP(Java Server Page)
+
+- HTML에 안에 JAVA코드가 들어감
+- ![image-20220615160149947](web_architecture.assets/image-20220615160149947.png)
+- 최초에 한번만 jsp -> servlet으로 바뀜
+- compile(servlet), script(jsp) 의 장점을 둘 다 가지고 있음
+
+- 스크립트보다 자바가 먼저 실행됨
