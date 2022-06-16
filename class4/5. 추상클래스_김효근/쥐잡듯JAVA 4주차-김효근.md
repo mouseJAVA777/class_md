@@ -134,6 +134,8 @@ public interface MyInterface {
 
 7. 인터페이스 다형성 적용
 
+
+
 ### 인터페이스의 필요성
 
 - 구현의 강제로 표준화 처리
