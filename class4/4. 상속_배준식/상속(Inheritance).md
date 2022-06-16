@@ -125,7 +125,7 @@ public class ExtendsTest {
         Child c = new Child();
     }
 }
-
+	
 //결과
 //"Parent 클래스의 생성자"
 //"Child 클래스의 생성자"
