@@ -122,6 +122,8 @@
 
 - 명령어 포맷
   - MRI (memory reference instruction) - 메인 메모리에 접근하는 명령
+    - i = 0, direct address
+    - i = 1, indierect address
   - RRI (Register reference instruction) - 레지스터를 다루는 명령
   - IO (Input - output instruction) - 입력, 출력 동작을 수행하는 명령
   - ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design6-16563857617242.png)
@@ -159,7 +161,7 @@
   - RRI 명령어 여부
   - IO 명령 결정
 
-- ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design11.png)
+- <img src="5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design11.png" alt="computer-design" style="zoom:150%;" />
 - 레지스터 참조 명령어의 종류와 동작
   - ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design12.png)
 
@@ -169,8 +171,8 @@
 - 메모리 참조 명령어의 종류와 동작
   - ![image-20220628131657177](5장-기본-컴퓨터의-구조와-설계-Part1.assets/image-20220628131657177.png)
   - ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design13.png)
-  - BSA
-    - 함수, 서브루틴의 구현에 사용
+  - **BSA**
+    - 함수, 서**브루틴의 구현에 사용**
     - 간접주소 사용의 전형적인 예
     - ![image-20220628132809989](5장-기본-컴퓨터의-구조와-설계-Part1.assets/image-20220628132809989.png)
   - ISZ
@@ -179,5 +181,5 @@
     - 첫 번째 AR은 비워져있음(135, 규칙임)
     - ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design14.png)
   - 제어 흐름
-    - ![computer-design](5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design15.png)
-    - 명령어마다 필요한 타이밍 길이가 다름
+    - <img src="5장-기본-컴퓨터의-구조와-설계-Part1.assets/computer-design15.png" alt="computer-design" style="zoom:150%;" />
+    - **명령어마다 필요한 타이밍 길이가 다름**
