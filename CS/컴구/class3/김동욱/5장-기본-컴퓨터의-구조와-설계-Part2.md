@@ -102,14 +102,14 @@ https://poojavaishnav.files.wordpress.com/2015/05/mano-m-m-computer-system-archi
 - ![image-20220703162818952](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703162818952.png)
   - ![image-20220707103712367](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707103712367.png)
 
-- The outputs of the control logic circuit are:
+- The outputs of the **control logic circuit** are:
   - ![image-20220707103935654](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707103935654.png)
 - **레지스터와 메모리에 대한 제어**
-  - AR 제어 논리 게이트의 예
+  - **AR 제어 논리 게이트의 예**
     - ![image-20220707104524553](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707104524553.png)
 
   - 설계 순서
-    - AR에 대한 LD(load), CLR(clear), INR(increasement) 동작의 경우 수집
+    - AR에 대한 **LD(**load), **CLR**(clear), **INR**(increasement) 동작의 경우 수집
     - 각 동작들을 OR로 연결
     - ![image-20220703164114371](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703164114371.png)
 
@@ -117,11 +117,11 @@ https://poojavaishnav.files.wordpress.com/2015/05/mano-m-m-computer-system-archi
   - ![image-20220703164133863](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703164133863.png)
   - ![image-20220703164359640](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703164359640.png)
 - **단일 플립플롭에 대한 제어**
-  - IEN에 대한 제어 게이트 예
+  - **IEN**에 대한 제어 게이트 예
   - ![image-20220703171614048](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703171614048.png)
   - ![image-20220707104930330](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707104930330.png)
   - <img src="5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707105437183.png" alt="image-20220707105437183" style="zoom:67%;" />
-- 공통 버스에 대한 제어
+- **공통 버스에 대한 제어**
   - 인코더에 대한 부울식
   - S0 = x1 + x3 + x5 + x7
   - S1 = x2 + x3 + x6 + x7
@@ -133,7 +133,7 @@ https://poojavaishnav.files.wordpress.com/2015/05/mano-m-m-computer-system-archi
 
 ### 누산기 논리의 설계 (Design of Accumulator Logic)
 
-- AC 레지스터 관련 회로
+- **AC 레지스터 관련 회로**
   - AC를 변경하는 경우 수집
   - LD, CLR, INC
   - ![image-20220707110301203](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220707110301203.png)
@@ -141,17 +141,17 @@ https://poojavaishnav.files.wordpress.com/2015/05/mano-m-m-computer-system-archi
   - ![image-20220703172954515](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703172954515.png)
 - AC 레지스터에 대한 제어
   - ![image-20220703173058341](5장-기본-컴퓨터의-구조와-설계-Part2.assets/image-20220703173058341.png)
-    - LD 신호제어
+    - **LD 신호제어**
       - MRI 명령 : AND, ADD, LDA
       - RRI 명령 : COM, SHR, SHL
       - IO 명령 : INPR
 
-    - INR 신호 제어
+    - **INR 신호 제어**
       - MRI 명령: none
       - RRI 명령 : INC
       - IO 명령 : none
 
-    - CLR 신호 제어
+    - **CLR 신호 제어**
       - MRI 명령 : none
       - RRI 명령 : CLR
       - IO 명령 : none
