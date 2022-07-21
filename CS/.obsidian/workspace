@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "a49ec73ea4904d0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd15fbcb026bb847",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "컴구/class5/배준식/나눗셈알고리즘.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b690ff922fa1bbac",
+    "type": "split",
+    "children": [
+      {
+        "id": "2737c05539d82745",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bc8907a79d9114d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "538dace65f180f0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dba9cb0cd7bcd368",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b81cb9fdaecba6d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b42201257fd6272",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3bb91ccecf27aa3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "컴구/class5/배준식/나눗셈알고리즘.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09eadcbe45492f2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "컴구/class5/배준식/나눗셈알고리즘.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "edb60ebf4f3458d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "796b9ec81001972e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "컴구/class5/배준식/나눗셈알고리즘.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bd15fbcb026bb847",
+  "lastOpenFiles": []
+}
